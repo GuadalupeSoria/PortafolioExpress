@@ -25,17 +25,19 @@
     <script>
         gtag('event', 'conversion', {'send_to': 'AW-11390260890/CuptCMC81vAYEJqtprcq'})
     </script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
 </head>
 <body>
 
     <nav class="navbar">
-        <div class="logo">
-            <img src="assets/CHAOSLOGO-removebg-preview.png" alt="Logo">
-        </div>
-
+        <div class="sectionNav">
+        <a href="#proyectosNav">Portafolio</a>
+        <a href="#seccion2">Sobre Mí / Skills</a>
+        <a href="#seccion3">Contacto</a>
+    </div>
         <div class="redes-sociales">
             <a class="wpp-icono" href="https://wa.me/message/24CFPDHRWMNWP1"  target="_blank"><img src="assets/Whatsapp.svg" alt="Whastapp"></a>
-            <!-- <a class="social-icon" href="https://flin.bo/x" target="_blank"><img src="assets/Twitter.svg" alt="Twitter"></a> -->
             <a class="social-icon" href="https://flin.bo/Youtube" target="_blank"><img src="assets/Youtube.svg" alt="Youtube"></a>
             <a class="social-icon" href="https://flin.bo/Instagram" target="_blank"><img src="assets/Instagram.svg" alt="Instagram"></a>
             <a class="social-icon" href="https://www.tiktok.com/@flinbo.official" target="_blank"><img src="assets/Tiktok.svg" alt="Tiktok"></a>
@@ -43,22 +45,62 @@
     </nav>
 
     <section id="inicio">
-           <div class="inicio-content">
-      <div class="texto-inicio-dos-lineas animate__animated animate__animated-custom-0">
-        <div class="animate__animated animate__backInDown">
-          <span>texto 0 texto 0</span>
+        <div id="particles-js"></div>
+        <div class="inicio-content">
+            <div class="texto-inicio-dos-lineas animate__animated animate__animated-custom-0">
+                <div class="animate__animated animate__backInDown">
+                    <span>Front-end Developer</span>
+                </div>
+                <div class="animate__animated animate__backInDown">
+                    <span class="linea-dos animate__animated-custom animate__animated-custom-2">Guadalupe </span>
+                </div>
+                <div class="animate__animated animate__backInDown">
+                    <div class="linea-dos animate__animated-custom animate__animated-custom-3">Soria</div>
+                </div>
+            </div>
         </div>
-        <span class="linea-dos animate__animated-custom animate__animated-custom-1">texto 1 texto 1</span>
-        <div class="animate__animated animate__backInDown">
-        <span class="linea-dos animate__animated-custom animate__animated-custom-2">texto 2 texto 2</span>
-        </div>
-        <span class="animate__animated-custom animate__animated-custom-3">texto 3 texto 3 texto 3</span>
-        <div class="texto-inicio-dos-lineas animate__animated animate__animated-custom animate__animated-custom-4">
-            <div class="linea-dos">texto 4 texto 4</div>
-        </div>
-    </div>
-    </div>
     </section>
+
+    
+    <div class="title-portafolio" id="proyectosNav">
+    <span>Portafolio</span>
+</div>
+    <section id="proyectos">
+        <button id="scrollIzquierda" onclick="scrollHorizontal(-100)">&lt;</button>
+        <div class="proyectos-container">
+            <div class="proyecto-card" onclick="mostrarDetalle(1)">
+                <img src="./assets/image_123986672.JPG" alt="Proyecto 1">
+                <div class="descripcion-preview">Descripción breve del Proyecto 1</div>
+            </div>
+ 
+            <div class="proyecto-card" onclick="mostrarDetalle(2)">
+                <img src="./assets/chaoslogogris-removebg-preview.png" alt="Proyecto 2">
+                <div class="descripcion-preview">Descripción breve del Proyecto 2</div>
+            </div>
+ 
+            <div class="proyecto-card" onclick="mostrarDetalle(3)">
+                <img src="./assets/chaoslogogris-removebg-preview.png" alt="Proyecto 3">
+                <div class="descripcion-preview">Descripción breve del Proyecto 3</div>
+            </div>
+           
+            <div class="proyecto-card" onclick="mostrarDetalle(4)">
+                <img src="./assets/chaoslogogris-removebg-preview.png" alt="Proyecto 4">
+                <div class="descripcion-preview">Descripción breve del Proyecto 4</div>
+            </div>
+ 
+            <div class="proyecto-card" onclick="mostrarDetalle(5)">
+                <img src="./assets/chaoslogogris-removebg-preview.png" alt="Proyecto 5">
+                <div class="descripcion-preview">Descripción breve del Proyecto 5</div>
+            </div>
+
+            <div class="proyecto-card" onclick="mostrarDetalle(5)">
+                <img src="./assets/chaoslogogris-removebg-preview.png" alt="Proyecto 6">
+                <div class="descripcion-preview">Descripción breve del Proyecto 6</div>
+            </div>
+ </div>
+        <button id="scrollDerecha" onclick="scrollHorizontal(100)">&gt;</button>
+    </section>
+    
 
     <section id="seccion2">
         <div class="rectangulo">
@@ -110,40 +152,6 @@
         </div>
     </section>
     
-    <div class="title-portafolio">
-    <span>Portafolio</span>
-</div>
-    
-    <section id="proyectos">
-        <button id="scrollIzquierda" onclick="scrollHorizontal(-100)">&lt;</button>
-        <div class="proyectos-container">
-            <div class="proyecto-card" onclick="mostrarDetalle(1)">
-                <img src="./assets/chaoslogogris-removebg-preview.png" alt="Proyecto 1">
-                <div class="descripcion-preview">Descripción breve del Proyecto 1</div>
-            </div>
- 
-            <div class="proyecto-card" onclick="mostrarDetalle(2)">
-                <img src="./assets/chaoslogogris-removebg-preview.png" alt="Proyecto 2">
-                <div class="descripcion-preview">Descripción breve del Proyecto 2</div>
-            </div>
- 
-            <div class="proyecto-card" onclick="mostrarDetalle(3)">
-                <img src="./assets/chaoslogogris-removebg-preview.png" alt="Proyecto 3">
-                <div class="descripcion-preview">Descripción breve del Proyecto 3</div>
-            </div>
-           
-            <div class="proyecto-card" onclick="mostrarDetalle(4)">
-                <img src="./assets/chaoslogogris-removebg-preview.png" alt="Proyecto 4">
-                <div class="descripcion-preview">Descripción breve del Proyecto 4</div>
-            </div>
- 
-            <div class="proyecto-card" onclick="mostrarDetalle(5)">
-                <img src="./assets/chaoslogogris-removebg-preview.png" alt="Proyecto 5">
-                <div class="descripcion-preview">Descripción breve del Proyecto 5</div>
-            </div>
- </div>
-        <button id="scrollDerecha" onclick="scrollHorizontal(100)">&gt;</button>
-    </section>
     
     <section id="seccion3">
         <div class="section3">

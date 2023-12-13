@@ -12,10 +12,14 @@ body::-webkit-scrollbar {
 #inicio {
     position: relative;
     overflow: hidden;
-    pointer-events: none;
     min-height: 100vh;
     display: flex;
-    /* align-items: end; */
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -67,6 +71,22 @@ body::-webkit-scrollbar {
     justify-content: space-between;
     align-items: center;
     z-index: 3;
+}
+
+.sectionNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.sectionNav a {
+    color: #f58b29;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0px 10px;
+    transition: all 0.3s ease;
 }
 
 .logo {
@@ -123,6 +143,7 @@ section {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background-color: #171718;
 }
 
 
@@ -162,9 +183,9 @@ section {
 }
 
 .texto-inicio-dos-lineas {
-    color: #000000;
+    color: #ffffff;
     text-align: center;
-    font-size: 78px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: 90px;
@@ -177,6 +198,7 @@ section {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 10px;
+    font-size: 100px;
 }
 
 .btn-early-access {
@@ -465,6 +487,7 @@ section {
     text-align: center;
     justify-content: center;
     position: relative;
+    padding-top: 7%;
 }
 
 .title-portafolio span {
@@ -472,20 +495,19 @@ section {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 800;
     }
-
 
 #proyectos {
     background-color: #171718;
     min-height: auto;
-    padding: 120px 20px;
 }
 
 .proyectos-container {
     display: flex;
     overflow-x: auto;
+    padding: 50px;
 }
 
 .proyectos-container::-webkit-scrollbar {
@@ -496,6 +518,12 @@ section {
     cursor: pointer;
     margin-right: 20px;
     position: relative;
+}
+.proyecto-card img {
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .descripcion-preview {

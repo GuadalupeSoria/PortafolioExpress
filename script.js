@@ -69,29 +69,43 @@ const proyectos = [
     {
         id: 1,
         titulo: 'Proyecto 1',
-        imagen: './assets/CHAOSLOGO.png',
-        descripcion: 'Descripción detallada del Proyecto 1..asd.',
-        otraImagen: './assets/BackLanding.jpg'
+        imagen: './assets/acuario.png',
+        descripcion: 'Clinica Veterinaria Acuario',
+        otraImagen: ''
     },
     {
         id: 2,
         titulo: 'Proyecto 2',
-        imagen: 'imagen-proyecto2.jpg',
-        descripcion: 'Descripción detallada del Proyecto 2...',
-        otraImagen: 'otra-imagen2.jpg'
+        imagen: './assets/EagProject.png',
+        descripcion: 'Eag Project',
+        otraImagen: ''
     },
    
     {  id: 3,
         titulo: 'Proyecto 3',
-        imagen: 'imagen-proyecto3.jpg',
-        descripcion: 'Descripción detallada del Proyecto 3...',
-        otraImagen: 'otra-imagen3.jpg'},
+        imagen: './assets/kidol.png',
+        descripcion: 'Kidol Shop',
+        otraImagen: ''},
 
     {  id: 4,
         titulo: 'Proyecto 4',
-        imagen: 'imagen-proyecto4.jpg',
-        descripcion: 'Descripción detallada del Proyecto 4...',
-        otraImagen: 'otra-imagen4.jpg'
+        imagen: './assets/airslv.png',
+        descripcion: 'Airslv',
+        otraImagen: ''
+        },
+    
+    {  id: 5,
+        titulo: 'Proyecto 5',
+        imagen: './assets/Beck.png',
+        descripcion: 'Beck',
+        otraImagen: ''
+        },
+              
+    {  id: 6,
+        titulo: 'Proyecto 6',
+        imagen: './assets/xpovio.png',
+        descripcion: 'Xpovio',
+        otraImagen: ''
         },
 ];
 

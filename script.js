@@ -158,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
             },
             modes: {
                 grab: {
-                    distance: 200,
+                    distance: 130,
                     line_linked: {
                         opacity: 1,
                     },

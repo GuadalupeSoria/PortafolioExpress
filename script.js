@@ -76,8 +76,8 @@ const proyectos = [
     {
         id: 2,
         titulo: 'Proyecto 2',
-        imagen: './assets/EagProject.png',
-        descripcion: 'Eag Project',
+        imagen: './assets/xpovio.png',
+        descripcion: 'Xpovio',
         otraImagen: ''
     },
    
@@ -103,8 +103,8 @@ const proyectos = [
               
     {  id: 6,
         titulo: 'Proyecto 6',
-        imagen: './assets/xpovio.png',
-        descripcion: 'Xpovio',
+        imagen: './assets/EagProject.png',
+        descripcion: 'Eag Project',
         otraImagen: ''
         },
 ];

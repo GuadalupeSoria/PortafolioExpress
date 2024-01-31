@@ -107,6 +107,13 @@ const proyectos = [
         descripcion: 'Eag Project',
         otraImagen: ''
         },
+
+    {  id: 7,
+        titulo: 'Proyecto 7',
+        imagen: './assets/Plaivi.png',
+        descripcion: 'Plaivi',
+        otraImagen: ''
+        },
 ];
 
 function mostrarDetalle(proyectoId) {
